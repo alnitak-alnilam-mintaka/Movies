@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Movies" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Movies" parent="Base.Theme.Movies" />
+
+    <style name="MovieRatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/movie_rating_bar</item>
+        <item name="android:minHeight">9dp</item>
+        <item name="android:maxHeight">14dp</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="MovieRatingBarLarge" parent="MovieRatingBar">
+        <item name="android:minHeight">14dp</item>
+    </style>
+</resources>

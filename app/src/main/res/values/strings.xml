@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <!-- Home screen -->
+    <string name="hello">Hello 👋</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="your_favorites_title"><![CDATA[YOUR <b>FAVORITES</b>]]></string>
+    <string name="staff_picks_title"><![CDATA[OUR <b>STAFF PICKS</b>]]></string>
+    <string name="see_all_button">See all</string>
+    <string name="no_favorites_title">You don\'t have favorite movies yet</string>
+    <string name="no_staff_picks_title">The list is empty :(</string>
+
+    <!-- Details screen -->
+    <string name="overview_title">Overview</string>
+    <string name="facts_title">Key Facts</string>
+    <string name="budget_title">Budget</string>
+    <string name="revenue_title">Revenue</string>
+    <string name="original_language_title">Language</string>
+    <string name="rating_title">Rating</string>
+    <string name="something_wrong_message">Something wrong</string>
+
+    <!-- Search screen -->
+    <string name="all_title">All movies</string>
+    <string name="favorite_title">Favorite movies</string>
+    <string name="search_hint">Search</string>
+    <string name="empty_list_message">Empty list</string>
+</resources>
